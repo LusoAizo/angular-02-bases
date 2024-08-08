@@ -1,0 +1,18 @@
+@if(heroeNames.length > 0) {
+  <h3>Lista de Héroes:</h3>
+<button (click)="deleteHero()" id="deleteHero">Eliminar Héroe</button>
+}
+
+@if(deletedHero){
+  <h3>Héroe eliminado: <span id="alerta">{{deletedHero}}</span> </h3>
+}
+
+@else {
+  <h3>No se ha eliminado ningún héroe.</h3>
+}
+
+<ul>
+  @for( name of heroeNames; track name){
+  <li> {{name}} </li>
+  }
+</ul>

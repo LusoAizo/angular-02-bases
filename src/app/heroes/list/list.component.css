@@ -1,0 +1,24 @@
+li {
+  /*list-style: none;*/
+  display: flex;
+  border: 1px solid black;
+  border-radius: 2px;
+
+}
+
+#deleteHero {
+  background-color: white;
+  border-color: #DE3C4B;
+  border-radius: 5px;
+  margin-left: 2rem;
+  padding: 0.8rem;
+}
+#deleteHero:hover{
+  background-color: #DE3C4B;
+  color: white;
+  padding: 0.8rem;
+}
+
+#alerta {
+  font-color: #DE3C4B;
+}

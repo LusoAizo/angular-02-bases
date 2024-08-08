@@ -1,0 +1,14 @@
+button {
+  font-family: 'Sans Serif';
+  font-size: 2rem;
+  font-weight: 2rem;
+  border-radius: 0.8rem;
+  padding: 0.8rem;
+  background-color: rgb(16,167,239);
+}
+dt {
+  font-size: 1.5rem;
+}
+dd {
+  font-size: 1.5rem;
+}
