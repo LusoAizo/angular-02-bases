@@ -1,4 +1,5 @@
 <h2>Hero!</h2>
+
 <dl>
   <dt>Nombre:</dt>
   <dd>{{name}}</dd>
@@ -12,17 +13,20 @@
   <dt>Mayúsculas</dt>
   <dd>{{setToUpper()}}</dd>
 </dl>
+
 @if(name !== 'spiderman'){
 <button
 (click)="changeName()">
 Cambiar Nombre
 </button>}
+
 @if(age === 45){
 <button
 (click)="changeAge()"
 style="margin-left: 0.8rem;">
 Cambiar Edad
 </button>}
+
 <button (click)="resetForm()"
 style="margin-left: 0.8rem;">
 Reset

@@ -1,0 +1,15 @@
+<h1>DBZ main page</h1>
+<hr>
+
+<div class="container">
+
+  <div id="listado">
+    <dbz-list [characterList]=characters
+    (onDelete)="onDeleteCharacter($event)"></dbz-list>
+  </div>
+
+  <div id="formulario">
+    <dbz-add-character (onNewCharacter)="onNewCharacter($event)"></dbz-add-character>
+  </div>
+
+</div>

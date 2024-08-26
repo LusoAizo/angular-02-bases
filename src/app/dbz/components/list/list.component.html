@@ -1,0 +1,19 @@
+<h3>Listado</h3>
+
+<ul>
+  @for(character of characterList; track character){
+    <li>
+      <span>
+        {{$index + 1}}.
+      </span>
+      {{ character.name }} -
+      <strong>
+        Power:
+      </strong>
+      <span>
+        {{character.power}}
+      </span>
+      <button (click)="onDeleteCharacter( character.id )" >X</button>
+    </li>
+  }
+</ul>

@@ -1,0 +1,5 @@
+li {
+  list-style-type: none;
+  border: 0.1rem solid #1c2826;
+  border-radius: 0.2rem;
+}
